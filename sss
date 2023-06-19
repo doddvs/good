@@ -1,0 +1,34 @@
+import random
+
+def guess_number():
+    number = random.randint(1, 100)
+    guessed = False
+
+    while not guessed:
+        guess = int(input("猜一个1到100之间的数字："))
+
+        if guess < number:
+            print("太小了，请继续猜！")
+        elif guess > number:
+            print("太大了，请继续猜！")
+        else:
+            print("恭喜你，猜对了！")
+            guessed = True
+            
+            import random
+
+def guess_number():
+    number = random.randint(1, 100)
+    guessed = False
+
+    while not guessed:
+        guess = int(input("猜一个1到100之间的数字："))
+
+        if guess < number:
+            print("太小了，请继续猜！")
+        elif guess > number:
+            print("太大了，请继续猜！")
+        else:
+            print("恭喜你，猜对了！")
+            guessed = True
+            
